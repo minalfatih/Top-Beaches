@@ -54,7 +54,7 @@ let img = [
 ];
 
 for (let i = 0; i < box.length; i++) {
-  box[i].style.cssText = `background-image: url(../images/${img[i]}.jpg);`;
+  box[i].style.cssText = `background-image: url(./images/${img[i]}.jpg);`;
   let span = document.createElement("span");
   span.textContent = "5";
   let iconStar = document.createElement("i");
