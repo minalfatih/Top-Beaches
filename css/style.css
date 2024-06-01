@@ -39,6 +39,11 @@ header h1 {
   opacity: 0;
   transition: 0.3s linear;
 }
+@media (max-width: 576px) {
+  header h1 {
+    width: 80%;
+  }
+}
 header h1.active {
   top: 300%;
   font-size: 30px;
